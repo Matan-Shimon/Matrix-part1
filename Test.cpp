@@ -347,7 +347,7 @@ TEST_CASE("Arithmetic operations")
         Matrix ans4{ans_vec4,2,2};
         CHECK_EQ(check4 == ans4, true);
         vector<double> ans_vec5 = {-3, 9, -1, 10, 10, -28, 1, -27, -36, 96, 2, 82, -29, 71, 9, 46};
-        Matrix ans5{ans_vec5,3,3};
+        Matrix ans5{ans_vec5,4,4};
         CHECK_EQ(check5 == ans5, true);
     }
 
